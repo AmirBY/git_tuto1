@@ -1,0 +1,86 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+body{
+    background: #444;
+    text-align: center;
+
+    width: 80vw;
+    margin:20px auto;
+}
+
+.create{
+    display: flex;
+    gap: 10px;
+}
+
+#total{
+    display: inline-block;
+    background: yellow;
+    min-width: 100px;
+}
+#total::before{
+    content: "Total : ";
+}
+input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+.create2{
+    display: flex;
+    gap: 2px;
+
+}
+button{
+    bottom: unset;
+    border-radius: 5px;
+    background: purple;
+    color: #fff;
+    width: 100px;
+    margin: 7px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+
+button:hover{
+    background: rgb(182, 24, 182);
+    transform: scale(1.1);
+
+}
+
+.table{
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.table td:hover{
+    cursor: pointer;
+
+}
+tr,td{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/*==============
+Search by 
+=============*/
+.groupBtn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.groupBtn button {
+width: 40%;
+background-color: seagreen;
+padding: 5px;
+}
